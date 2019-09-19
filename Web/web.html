@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<title>Football Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/game.css">
+	<style> 
+div {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/ball.png);
+  position: relative;
+  -webkit-animation-name: ball; 
+  -webkit-animation-duration: 4s;
+  animation-name: ball;
+ animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes ball {
+  0%   {left:400px; top:400px;}
+  25%  {left:150px; top:100px;}
+  50%  {left:350px; top:350px;}
+  75%  {left: 650px; top:200px;}
+  100%  {left:400px; top:400px;}
+}
+</style>
+</head>
+<body>
+	<field>
+		<team id="red-team">
+			<player class="goalkeeper" id="player1-red" title="Red-GoalKeeper"></player>
+			<player id="player2-red" title="Red-2"></player>
+			<player id="player3-red" title="Red-3"></player>
+			<player id="player4-red" title="Red-4"></player>
+			<player id="player5-red" title="Red-5"></player>
+			<player id="player6-red" title="Red-6"></player>
+			<player id="player7-red" title="Red-7"></player>
+			<player id="player8-red" title="Red-8"></player>
+			<player id="player9-red" title="Red-9"></player>
+			<player id="player10-red" title="Red-10"></player>
+			<player id="player11-red" title="Red-11"></player>
+			<player id="player12-red" title="Red-12"></player>
+			<player id="player13-red" title="Red-13"></player>
+
+		</team>
+		
+
+		<referee>
+			<img src="img/referee.png" title="referee">
+		</referee>
+<div></div>
+
+		<team id="blue-team">
+			<player class="goalkeeper" id="player1-blue" title="Blue-GoalKeeper"></player>
+			<player id="player2-blue" title="blue-2"></player>
+			<player id="player3-blue" title="blue-3"></player>
+			<player id="player4-blue" title="blue-4"></player>
+			<player id="player5-blue" title="blue-5"></player>
+			<player id="player6-blue" title="blue-6"></player>
+			<player id="player7-blue" title="blue-7"></player>
+			<player id="player8-blue" title="blue-8"></player>
+			<player id="player9-blue" title="blue-9"></player>
+			<player id="player10-blue" title="blue-10"></player>
+			<player id="player11-blue" title="blue-11"></player>
+			<player id="player12-blue" title="blue-12"></player>
+			<player id="player13-blue" title="blue-13"></player>
+		</team>
+	</field>
+</body>
+</html>

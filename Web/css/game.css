@@ -1,0 +1,174 @@
+field{
+	background: url(../img/field.jpg);
+	width: 1200px;
+	height: 600px;
+	display: block;
+}
+
+field player, field referee, field ballimg{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	margin-top: -12px;
+	text-align: center; 
+}
+
+field referee{
+	top: 100px;
+	left: 500px;
+	color: black;
+}
+field ballimg{
+	top: 275px;
+	left: 510px;
+}
+field player{
+	width: 80px;
+	height: 80px;
+	background-color: none;
+}
+
+field player:hover{
+	width: 100px;
+	height: 100px;
+}
+field ballimg:hover{
+	width: 100px;
+	height: 100px;
+}
+field referee:hover{
+	width: 100px;
+	height: 100px;
+}
+field team#red-team player{
+	background-image: url(../img/red-player.png);
+	background-size: cover;
+}
+
+field team#blue-team player{
+	background-image: url(../img/blue-player.png);
+	background-size: cover;
+}
+
+#player1-red{
+	top: 270px;
+	left: 80px;
+}
+
+
+#player2-red{
+	top: 100px;
+	left: 150px;
+}
+
+#player3-red{
+	top: 500px;
+	left: 300px;
+}
+
+#player4-red{
+	top: 350px;
+	left: 350px;
+}
+
+#player5-red{
+	top: 400px;
+	left: 400px;
+}
+
+#player6-red{
+	top: 250px;
+	left: 250px;
+}
+#player7-red{
+	top: 200px;
+	left: 650px;
+}
+#player8-red{
+	top: 400px;
+	left: 700px;
+}
+#player9-red{
+	top: 300px;
+	left: 850px;
+}
+
+#player10-red{
+	top: 125px;
+	left: 900px;
+}
+#player11-red{
+	top: 1px;
+	left: 250px;
+}
+#player12-red{
+	top: 1px;
+	left: 300px;
+}
+#player13-red{
+	top: 1px;
+	left: 360px;
+}
+#player1-blue{
+	top: 300px;
+	left: 1100px;
+}
+
+
+#player2-blue{
+	top: 350px;
+	left: 900px;
+}
+
+#player3-blue{
+	top: 350px;
+	left: 650px;
+}
+
+#player4-blue{
+	top: 200px;
+	left: 450px;
+}
+
+#player5-blue{
+	top: 150px;
+	left: 750px;
+}
+
+#player6-blue{
+	top: 300px;
+	left: 375px;
+}
+
+
+#player7-blue{
+	top: 350px;
+	left: 450px;
+}
+
+#player8-blue{
+	top: 210px;
+	left: 725px;
+}
+
+#player9-blue{
+	top: 120px;
+	left: 925px;
+}
+
+#player10-blue{
+	top: 175px;
+	left: 200px;
+}
+#player11-blue{
+	top: 1px;
+	left: 800px;
+}
+#player12-blue{
+	top: 1px;
+	left: 860px;
+}
+#player13-blue{
+	top: 1px;
+	left: 920px;
+}
